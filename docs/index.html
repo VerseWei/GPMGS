@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>GPM-GS: 3D Gaussian Splatting Guided by Geometric Probability Models for Surface Reconstruction</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <link type="stylesheet" href="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css">
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title" >GPM-GS: 3D Gaussian Splatting Guided by Geometric Probability Models for Surface Reconstruction</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Xiaosong Wei</a><sup>1,*</sup>
+              </span>
+
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Pengwei Zhou</a><sup>1,*</sup>
+              </span>
+              
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Shanding Ye</a><sup>1</sup>
+              </span>
+
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Li Li</a><sup>1</sup>
+              </span>
+
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Xiaoqi Zheng</a><sup>2</sup>
+              </span>
+
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Jian Yao</a><sup>1,3,&dagger;</sup>
+              </span>
+                  </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup> School of Remote Sensing and Information Engineering, Wuhan University</span><br>
+                <span class="author-block"><sup>2</sup> State Key Laboratory of Intelligent Vehicle Safety Technology</span><br>
+                <span class="author-block"><sup>3</sup> Wuhan University Shenzhen Research Institute</span><br>
+                <span class="author-block"><sup>*</sup> Equal Contribution</span>
+                <span class="author-block"><sup>&dagger;</sup> Corresponding Author</span>
+              </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/VerseWei/SMDGS" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <img src="static/images/OverviewFramework.png" alt="MY ALT TEXT" style="max-width: 80%; height: auto;">
+      <h2 class="subtitle" style="text-align: justify;">
+        Overview of the proposed GPM-GS pipeline. We introduce differentiable uncertainty Gaussians in (a) to construct the DepthPM, thereby rendering depth uncertainty map. Subsequently, the depth uncertainty is combined with external geometric prior in (b) to build the PlanarPM, guiding reconstruction to aggregate well-reconstructed regions toward areas of high uncertainty. Additionally, a spatially local hierarchical tree is constructed in (c) based on monocular pseudo-ground truth, maximizing the exploration of monocular cues. Finally, CrossPM is derived from pixel-wise Gaussian contributions in (d) to guide multi-view regularization. The cross-view visibility is also incorporated into view-selection to reduce surface drift caused by low-value image pairs.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Image based 3D Gaussian Splatting (3DGS) lacks explicit geometric constraints, leading to inherent representational bottlenecks in surface reconstruction. This issue becomes especially pronounced in challenging scenes, such as those with weak texture and complex geometric structures. Although substantial progress has been achieved via monocular depth or multi-view geometric regularization, performance still degrades in complex scenes. The main reason is the insufficient exploitation of these valuable geometric features. To address this problem, this paper introduces GPM-GS, a novel approach that constructs a geometric probability model (GPM) using prior knowledge and self-supervision. This helps the Gaussian radiance field converge toward accurate surface representation. Specifically, we first establish a depth probability model (DepthPM). It guides the utilization of monocular cues by the self-assessment Gaussian radiance field. These cues compensate for the limitations of photometric supervision, thus largely alleviating the inconsistency between 2D visual quality and 3D structural accuracy. Next, a calibration strategy is introduced based on a planar probability model (PlanarPM). It exploits local structural priors from monocular cues to correct under-reconstructed regions and improve geometric completeness. Finally, a cross-view probability model (CrossPM) is proposed to facilitate multi-view sampling and enforce cross-view consistency regularization. This maximizes the use of shared observations across views, effectively enhancing surface fidelity and fine-grained details. Extensive evaluations on various challenging scenes show that our method consistently achieves state-of-the-art (SOTA) reconstruction quality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Reconstruction Results -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 has-text-centered">Mesh Reconstruction Results</h2>
+
+        <div class="content">
+          <p class="has-text-justified">
+            Figures below present all mesh reconstruction results of GPM-GS on the DTU, Tanks and Temples (TnT), MipNeRF360, and Replica datasets, respectively.
+          </p>
+        </div>
+
+        <div class="has-text-centered" style="margin-top: 2rem;">
+          <img src="static/images/DTUAll.png" alt="All mesh reconstruction results on the DTU dataset" style="max-width: 100%; height: auto;">
+          <p style="text-align: justify; max-width: 1000px; margin: 0.75rem auto 2rem auto;">
+            <strong>Figure 1.</strong> All mesh reconstruction results of GPM-GS on the DTU dataset.
+          </p>
+        </div>
+
+        <div class="has-text-centered" style="margin-top: 2rem;">
+          <img src="static/images/TnTAll.png" alt="All mesh reconstruction results on the TnT dataset" style="max-width: 100%; height: auto;">
+          <p style="text-align: justify; max-width: 1000px; margin: 0.75rem auto 2rem auto;">
+            <strong>Figure 2.</strong> All mesh reconstruction results of GPM-GS on the Tanks and Temples (TnT) dataset.
+          </p>
+        </div>
+
+        <div class="has-text-centered" style="margin-top: 2rem;">
+          <img src="static/images/MipNeRF360All.png" alt="All mesh reconstruction results on the MipNeRF360 dataset" style="max-width: 100%; height: auto;">
+          <p style="text-align: justify; max-width: 1000px; margin: 0.75rem auto 2rem auto;">
+            <strong>Figure 3.</strong> All mesh reconstruction results of GPM-GS on the MipNeRF360 dataset.
+          </p>
+        </div>
+
+        <div class="has-text-centered" style="margin-top: 2rem;">
+          <img src="static/images/ReplicaAll.png" alt="All mesh reconstruction results on the Replica dataset" style="max-width: 100%; height: auto;">
+          <p style="text-align: justify; max-width: 1000px; margin: 0.75rem auto 0 auto;">
+            <strong>Figure 4.</strong> All mesh reconstruction results of GPM-GS on the Replica dataset.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Reconstruction Results -->
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>The code is available now</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+
+  <script src="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.js"></script>
+
+  </body>
+  </html>
